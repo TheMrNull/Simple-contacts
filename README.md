@@ -2,6 +2,6 @@
 
 This is a simple contact app made from scratch and written in c++ that lets you:  
 1)Add  
-2)Remove
-3)Search
-4)Export the contact list
+2)Remove  
+3)Search  
+4)Export the contact list  
