@@ -15,7 +15,7 @@ int main(int argc, char* argv[]){
   cout << "--------------\n";
   
   cout << "\nPlease choose an action:\n";
-  cout << "1)Print\n2)Add\n3)Remove\n4)Search\n5)Export\n6)Quit\nAction: ";
+  cout << "1)Print\n2)Add\n3)Remove\n4)Search\n5)Export\n6)Import\n7)Quit\nAction: ";
   cin >> action;
   switch (action) {
     case 1:{
@@ -38,6 +38,10 @@ int main(int argc, char* argv[]){
              break;
            }
     case 6:{
+            impt(argc, argv, head);
+            break;
+           }
+    case 7:{
         clearAll(head);
         cout << "Saving changes and clearing memory!\nBye bye\n";
         running = false;

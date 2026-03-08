@@ -20,6 +20,7 @@ void print(Person* head);
 void search(Person* head);
 void remove(Person* &head);
 void expt(int argc, char* argv[], Person* head);
+void impt(int argc, char* argv[], Person* head);
 #endif // HEADER
 
 

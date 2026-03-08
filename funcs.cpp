@@ -142,7 +142,13 @@ void expt(int argc, char* argv[], Person* head){
   out.close();
 }
 
-
+void imp(int argc, char* argv[], Person* head){
+  if argc < 2{
+    cout << "Error, no input file provided at start\nRun contacts input.txt to use this option\n";
+    return;
+  }
+  
+}
 
 
 
